@@ -1,0 +1,87 @@
+body{
+  /*Typography declarations*/
+  color: #2222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead {
+  text-align: center;
+  padding: 7em 0;
+  background-image:
+url('http://i.imgur.com/dR8sDVd.jpg');
+  background-size: 1035px 562.5px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic",Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading{
+  margin-top: -0.01em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction,
+.location,
+.questions{
+  max-width: 37em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  background-color: transparent;
+}
+
+.questions > h3{
+  color: blue;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.introduction > p,
+.location > p,
+.footer > p{
+  /*Typography Declarations*/
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 5em;
+  padding: 4em 0;
+  background-color: #C1CBE8;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.footer > p {
+  color: black;
+  margin-left: em;
+}
+
+
+section > h1{
+  margin-top: 1em;
+}
+
+/*http://www.w3schools.com/cssref/playit.asp?filename=playcss_background-position
+
+//sublime text package
+//packagecontrol.io 
+//must open folder
+localhost:8080 in browser
+
+install sidebar
+check for syntax errors first
