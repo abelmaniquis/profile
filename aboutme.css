@@ -16,18 +16,20 @@ url('http://i.imgur.com/dR8sDVd.jpg');
 }
 
 .masthead-intro {
+  color: white;
   margin-bottom: 0.1em;
   font-family: "Gentium Book Basic",Georgia, serif;
   font-size: 2em;
 }
 
 .masthead-heading{
+  color: white;
   margin-top: -0.01em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 5em;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
+  text-transform: Uppercase;
 }
 
 .introduction,
@@ -49,7 +51,9 @@ url('http://i.imgur.com/dR8sDVd.jpg');
 
 .introduction > p,
 .location > p,
+.questions > p,
 .footer > p{
+  text-indent: 50px;
   /*Typography Declarations*/
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -70,7 +74,6 @@ url('http://i.imgur.com/dR8sDVd.jpg');
   color: black;
   margin-left: em;
 }
-
 
 section > h1{
   margin-top: 1em;
